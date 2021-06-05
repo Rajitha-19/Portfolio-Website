@@ -1,0 +1,36 @@
+body{
+    background-color:black;
+}
+/* flex box*/
+
+.container{
+    background-color: gray;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*heading*/
+
+h1{
+    background-color: #ddd;
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid brown;
+    border-right: 10px solid brown;
+    border-left: 10px solid brown;
+    border-top: 2px solid brown;
+    border-radius: 200px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #888888;
+}
+img {
+    width:450px;
+    height:450px;
+    margin:10px;
+    transition:all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
